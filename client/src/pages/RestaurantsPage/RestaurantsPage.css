@@ -1,0 +1,21 @@
+.restaurantsboard{
+  margin-top: 5%;
+  background-image: url("/images/board.jpg");
+  background-size: contain;
+  height: 100%;
+  border-style: groove;
+  border-color: rgb(184, 82,77);
+  border-width: 10px;
+}
+
+.restaurantsboard h1{
+  font-family: Writing, Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 600%;
+}
+
+@font-face {
+  font-family: Writing;
+  src: url("/images/writing.otf");
+}

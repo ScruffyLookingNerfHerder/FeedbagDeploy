@@ -1,0 +1,13 @@
+.delete-btn {
+  float: right;
+  color: #e74944;
+  padding: 0;
+  margin: 0;
+}
+
+.delete-btn :hover {
+  float: right;
+  color: #e74944;
+  padding: 0;
+  margin: 0;
+}

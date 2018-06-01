@@ -1,0 +1,13 @@
+.Groceriesboard{
+  background-image: url("/images/board.jpg");
+  background-size: contain;
+  height: 100%;
+  border-style: groove;
+  border-color: rgb(184, 82,77);
+  border-width: 10px;
+}
+
+.delete-btn {
+  margin-top: 0;
+  padding: 0;
+}

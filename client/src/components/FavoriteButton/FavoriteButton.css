@@ -1,0 +1,13 @@
+.favorite-btn {
+  float: right;
+  color: white;
+  margin-top: -24px;
+  background-color: turquoise;
+  position:relative;
+
+}
+
+.favorite-btn:hover {
+  background-color: darkcyan;
+
+}

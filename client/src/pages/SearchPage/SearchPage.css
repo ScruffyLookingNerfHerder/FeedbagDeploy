@@ -1,0 +1,70 @@
+.topBox {
+  min-height: 200px;
+  padding: 15px;
+  background-color: rgba(40, 40, 40, .9);
+  align-content: center;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  border-color: grey;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 12px;
+  font-family: Writing, Helvetica, Arial, sans-serif;
+
+}
+
+.topBox p{
+  font-size: 40px;
+  color: white;
+}
+
+.topBox input {
+  font-size: 40px;
+  border-radius: 12px;
+}
+
+.thesubmitbtn{
+  font-size: 40px;
+  background-color: rgba(152, 215, 0, 0.74);
+  border: solid;
+  border-color: white;
+  border-radius: 12px;
+  color: white;
+  border-width: thin;
+}
+
+.renderVenCard  {
+
+  align-content: center;
+  margin-left: auto
+}
+
+.VenCardParent {
+  margin-left: 25%;
+  align-content: center;
+  margin-top: 50px;
+  max-width: 40%;
+}
+
+.renderRecCard {
+  margin-top: 50px;
+  margin-left: 0;
+}
+
+.renderRecCard ul {
+  display: inline-block;
+}
+
+.cuisinelists {
+  padding: 1%;
+}
+
+.renderRestCard {
+  align-content: center;
+}
+
+@font-face {
+  font-family: Writing;
+  src: url("/images/writing.otf");
+}

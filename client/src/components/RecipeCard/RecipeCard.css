@@ -1,0 +1,25 @@
+.recRules {
+  width: 300px;
+  max-height: 375px;
+  min-height: 250px;
+  padding: 5px;
+
+}
+
+
+p {
+  margin: 0px;
+  color: black;
+  font-size: 9pt
+}
+
+a {
+  text-decoration: none;
+  color: green
+}
+
+.imgThis {
+  height: 55%;
+  width: 55%;
+  margin: 15px
+}

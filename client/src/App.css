@@ -1,0 +1,181 @@
+body {
+  background-image: url("/images/kitchen.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+.jumbotron {
+  background-image: url("/images/board.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 50%;
+  color: white;
+  text-align: center;
+  font-family: Writing, Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+.navbar {
+  margin: auto;
+  width: 70%;
+}
+
+.RecButton {
+  border-style: solid;
+  margin: 3%;
+  background-color: white;
+  border-color: black
+}
+
+@font-face {
+  font-family: Writing;
+  src: url("/images/writing.otf");
+}
+
+.rest {
+  border-style: solid;
+  border-radius: 12px;
+  margin: 2%;
+  background-color: rgba(40, 40, 40, .9);
+  color: white;
+  font-family: 'Amatic SC', cursive;
+
+
+}
+
+.rest p{
+  font-size: 20px;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+
+}
+
+.rest a{
+  color: white;
+  margin-bottom: 2%;
+}
+.container .jumbotron {
+  border-radius: 50%;
+}
+
+.Carousel {
+  width: 900px;
+  height: 500px;
+  margin: auto;
+}
+
+img {
+  margin: auto;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a.carousel-control.right {
+  opacity: 0;
+}
+
+a.carousel-control.left {
+  opacity: 0;
+}
+
+.Carousel a {
+  color: white
+}
+
+.login {
+  background-color: white;
+  margin:auto;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+
+}
+
+h3 {
+  font-size: 38px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.topBox {
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.jumbotron {
+  width: 400px;
+  padding: 10px;
+}
+
+.panel {
+  margin-top: 30px;
+}
+
+.Grocerynote {
+
+}
+
+.Grocerynote p {
+  color: white;
+  margin: auto;
+  background-color: black;
+ border-style: dashed;
+ font-family: 'Pangolin', cursive;
+  padding: 10px;
+ font-size: 28px;
+ text-align: center;
+
+}
+
+.back {
+  margin: auto;
+ color: white;
+ font-size: 28px;
+ text-align: center;
+ height: 80px;
+ width: 40%;
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
