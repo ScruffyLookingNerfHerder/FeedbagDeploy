@@ -9,7 +9,7 @@ module.exports = {
 
       const RecipeQuery = req.params.recipekeywords;
       const url = `${FOOD2FORK}${APIKey}&q=${RecipeQuery}&sort=r`;
-
+      console.log(url);
       return axios.get(url)
       .then(response => res.json(response.data))
         console.log(response.data)
